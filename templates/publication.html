@@ -1,0 +1,53 @@
+{% extends "DeepThought/templates/section.html" %}
+
+{% block content %}
+<section class="section">
+  <div class="container">
+    <div class="has-text-centered">
+      <h1 class="title is-2">{{ section.title }}</h1>
+      <p class="subtitle is-4">{{ section.description }}</p>
+    </div>
+    <div class="content">
+      {{ section.content | safe }}
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-9">
+        {% if paginator %}
+        {% set pages = paginator.pages %}
+        {% else %}
+        {% set pages = section.pages %}
+        {% endif %}
+
+        <div class="block">
+          <h1 class="title">{{ trans(key="domestic_conf", lang=lang) }}</h1>
+          <div class="content">
+            <ul>
+              {% for page in pages %}
+              {% if "domestic" in page.extra.publication_type %}
+              {% if "conference" in page.extra.publication_type %}
+              <li><a class="is-size-5" href="{{ page.permalink }}">{{ page.extra.reference | safe }}</a></li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
+          <h1 class="title">{{ trans(key="awards", lang=lang) }}</h1>
+          <div class="content">
+            <ul>
+              {% for page in pages %}
+              {% if "award" in page.extra.publication_type %}
+              <li><a class="is-size-5" href="{{ page.permalink }}">{{ page.extra.reference | safe }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
+

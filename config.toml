@@ -1,0 +1,68 @@
+# The URL the site will be built for
+base_url = "https://Haru-T.github.io"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+default_language = "en"
+title = "Haruaki Tanaka"
+theme = "DeepThought"
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+
+[extra]
+# Put all your custom variables here
+navbar_items = [
+  { code = "en", nav_items = [
+    { url = "$BASE_URL/", name = "Home" },
+    { url = "$BASE_URL/profile", name = "Profile" },
+    { url = "$BASE_URL/publication", name = "Publications & Activities" },
+    { url = "$BASE_URL/ja", name = "en | ja" }
+  ]},
+  { code = "ja", nav_items = [
+    { url = "$BASE_URL/ja", name = "ホーム" },
+    { url = "$BASE_URL/ja/profile", name = "プロフィール" },
+    { url = "$BASE_URL/ja/publication", name = "業績" },
+    { url = "$BASE_URL/ja/blog", name = "ブログ" },
+    { url = "$BASE_URL/", name = "en | ja" }
+  ]},
+]
+
+[extra.favicon]
+favicon_16x16 = "/icons/favicon-16x16.png"
+favicon_32x32 = "/icons/favicon-32x32.png"
+apple_touch_icon = "/icons/apple-touch-icon.png"
+safari_pineed_tab = "/icons/safari-pinned-tab.svg"
+webmanifest = "/icons/site.webmanifest"
+
+[extra.katex]
+enabled = true
+auto_render = true
+
+[extra.author]
+name = "Haruaki Tanaka"
+avatar = "/img/portrait.png"
+
+[extra.social]
+github = "Haru-T"
+twitter = "harut_geek"
+
+[languages.ja]
+build_search_index = true
+title = "田中晴亮"
+
+[translations]
+domestic_conf = "Domestic Conferences (in Japanese)"
+awards = "Awards"
+
+[languages.ja.translations]
+domestic_conf = "国内会議"
+awards = "受賞等"
+
