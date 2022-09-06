@@ -53,6 +53,7 @@ avatar = "/img/portrait.png"
 [extra.social]
 github = "Haru-T"
 twitter = "harut_geek"
+orcid = "0000-0002-6182-3364"
 
 [languages.ja]
 build_search_index = true
