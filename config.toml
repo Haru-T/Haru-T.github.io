@@ -58,10 +58,11 @@ build_search_index = true
 title = "田中晴亮"
 
 [translations]
+journal = "Journal Articles"
 domestic_conf = "Domestic Conferences (in Japanese)"
 awards = "Awards"
 
 [languages.ja.translations]
+journal = "学術論文"
 domestic_conf = "国内会議"
 awards = "受賞等"
-
