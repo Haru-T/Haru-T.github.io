@@ -19,6 +19,19 @@
         {% endif %}
 
         <div class="block">
+          <h1 class="title">{{ trans(key="journal", lang=lang) }}</h1>
+          <div class="content">
+            <ul>
+              {% for page in pages %}
+              {% if "journal" in page.extra.publication_type %}
+              <li><a class="is-size-5" href="{{ page.permalink }}">{{ page.extra.reference | safe }}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+
+        <div class="block">
           <h1 class="title">{{ trans(key="domestic_conf", lang=lang) }}</h1>
           <div class="content">
             <ul>
