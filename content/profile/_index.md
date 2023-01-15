@@ -22,7 +22,9 @@ title = "Profile"
 
 # Qualification
 
-- Applied Information Technology Enginner Examination
+- Embedded Systems Specialist Examination (Japan Information-Technology Engineers Examination)
+  - Passed in Autumn 2022
+- Applied Information Technology Enginner Examination (Japan Information-Technology Engineers Examination)
   - Passed in Spring 2021
 
 # Skills
