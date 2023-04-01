@@ -16,7 +16,7 @@ title = "Profile"
 - Part-time job as a software/hardware engineer at BM Comp Inc.
   - Feb. 2022 – Present
 - Technical assistant at Naruse-Horisaki Lab, The University of Tokyo
-  - Feb. 2022 – Present
+  - Feb. 2022 – Mar. 2023
 - Part-time job as a software engineer at pluszero Corp.
   - Nov. 2019 – Apr. 2022
 
@@ -35,4 +35,5 @@ title = "Profile"
   - Python
   - MATLAB
   - javascript / typescript
+  - Ruby
 - Docker / Podman
