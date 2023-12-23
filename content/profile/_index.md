@@ -22,6 +22,8 @@ title = "Profile"
 
 # Qualification
 
+- Registered Information Security Specialist Examination
+  - Passed in Autumn 2023
 - Embedded Systems Specialist Examination (Japan Information-Technology Engineers Examination)
   - Passed in Autumn 2022
 - Applied Information Technology Enginner Examination (Japan Information-Technology Engineers Examination)
