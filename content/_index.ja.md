@@ -1,10 +1,8 @@
 +++
-title = "田中晴亮"
-description = """全ての"モノ"をスマートに"""
+title = "Haru-T"
 +++
 
-田中晴亮のホームページです．
-修士課程の学生として[中村・高瀬研究室](http://www.hal.ipc.i.u-tokyo.ac.jp)に在籍しています．
+Haru-Tのホームページ
 
 # 興味分野
 
@@ -14,4 +12,5 @@ description = """全ての"モノ"をスマートに"""
 
 # ニュース
 
+- [2024年3月21日] 東京大学大学院情報理工学系研究科システム情報学専攻修士課程を修了しました．
 - [2022年9月14日] 卒業研究の成果"Experimental Demonstration of Delay-Bounded Wireless Network Based on Precise Time Synchronization"がIEEE Access誌にて出版されました．[詳細](@/publication/tanaka2022access.ja.md)

@@ -8,7 +8,7 @@ compile_sass = true
 build_search_index = true
 
 default_language = "en"
-title = "Haruaki Tanaka"
+title = "Haru-T"
 theme = "DeepThought"
 
 [markdown]
@@ -45,8 +45,8 @@ enabled = true
 auto_render = true
 
 [extra.author]
-name = "Haruaki Tanaka"
-avatar = "/img/portrait.png"
+name = "Haru-T"
+avatar = "/icons/android-chrome-512x512.png"
 
 [extra.social]
 github = "Haru-T"
@@ -55,7 +55,7 @@ orcid = "0000-0002-6182-3364"
 
 [languages.ja]
 build_search_index = true
-title = "田中晴亮"
+title = "Haru-T"
 
 [translations]
 journal = "Journal Articles"

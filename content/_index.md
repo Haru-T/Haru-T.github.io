@@ -1,9 +1,8 @@
 +++
-title = "Haruaki Tanaka"
-description = """Make Every Things "Smart""""
+title = "Haru-T"
 +++
 
-Hello! I am Haruaki Tanaka (Haru-T), a master-course student of [Nakamura-Takase Lab.](http://www.hal.ipc.i.u-tokyo.ac.jp) at The University of Tokyo.
+Haru-T's Homepage
 
 # Interests
 
@@ -13,4 +12,5 @@ Hello! I am Haruaki Tanaka (Haru-T), a master-course student of [Nakamura-Takase
 
 # News
 
+- [March 21, 2024] I earned my master's degree in information science and technology from the University of Tokyo.
 - [September 14, 2022] Our new paper "Experimental Demonstration of Delay-Bounded Wireless Network Based on Precise Time Synchronization" is accepted by IEEE Access and now published. [Detail](@/publication/tanaka2022access.md)
