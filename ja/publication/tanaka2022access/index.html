@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="#ffffff" name="theme-color" />
+  <meta content="#da532c" name="msapplication-TileColor" />
+
+  
+  <link href='&#x2F;icons&#x2F;site.webmanifest' rel="manifest" />
+  
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-16x16.png' rel="icon" sizes="16x16" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;favicon-32x32.png' rel="icon" sizes="32x32" type="image/png" />
+  
+  
+  <link href='&#x2F;icons&#x2F;apple-touch-icon.png' rel="apple-touch-icon" sizes="180x180" />
+  
+
+  
+
+  
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1.9.1/css/academicons.min.css" integrity="sha384-FIue+PI4SsI9XfHCz8dBLg33b0c1fMJgNU3X//L26FYbGnlSEfWmNT7zgWc2N9b6" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" integrity="sha384-IJLmUY0f1ePPX6uSCJ9Bxik64/meJmjSYD7dHaJqTXXEBE4y+Oe9P2KBZa/z7p0Q" crossorigin="anonymous">
+  <link href="https://Haru-T.github.io/deep-thought.css" rel="stylesheet" />
+  
+  
+
+  <title>
+    
+Haru-T | Experimental Demonstration of Delay-Bounded Wireless Network Based on Precise Time Synchronization
+
+  </title>
+
+  
+  
+  
+
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js" integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx" crossorigin="anonymous"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/mathtex-script-type.min.js" integrity="sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT" crossorigin="anonymous"></script>
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"></script>
+  
+  
+</head>
+
+<body class="has-background-white">
+  <nav aria-label="section navigation" class="navbar is-light" role="navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-5 has-text-weight-bold" href="https:&#x2F;&#x2F;Haru-T.github.io">Haru-T</a>
+        <a aria-expanded="false" aria-label="menu" class="navbar-burger burger" data-target="navMenu" role="button">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div class="navbar-menu" id="navMenu">
+        <div class="navbar-end has-text-centered">
+          
+          
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;Haru-T.github.io&#x2F;ja">
+            ホーム
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;Haru-T.github.io&#x2F;ja&#x2F;profile">
+            プロフィール
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;Haru-T.github.io&#x2F;ja&#x2F;publication">
+            業績
+          </a>
+          
+          <a class="navbar-item has-text-weight-semibold" href="https:&#x2F;&#x2F;Haru-T.github.io&#x2F;ja&#x2F;blog">
+            ブログ
+          </a>
+          
+          
+          
+          <a class="navbar-item has-text-weight-semibold" id="switch-lang">
+            en | ja
+          </a>
+          <script type="text/javascript">
+            window.onload = function() {
+              let path = window.location.pathname
+              if (path.startsWith("/ja")) {
+                document.getElementById("switch-lang").href = path.slice(3)
+              } else {
+                document.getElementById("switch-lang").href = "/ja" + path
+              }
+            }
+          </script>
+          <a class="navbar-item" id="nav-search" title="Search" data-target="#search-modal">
+            <span class="icon">
+              <i class="fas fa-search"></i>
+            </span>
+          </a>
+          <a class="navbar-item" id="dark-mode" title="Switch to dark theme">
+            <span class="icon">
+              <i class="fas fa-adjust"></i>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  
+  
+
+  
+<section class="section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8 is-offset-2">
+        <article class="box">
+          <h1 class="title">
+            Experimental Demonstration of Delay-Bounded Wireless Network Based on Precise Time Synchronization
+          </h1>
+          <p class="subtitle"></p>
+          <div class="columns is-multiline is-gapless">
+            <div class="column is-8">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="fas fa-user"></i>
+  </span>
+  <span>Haru-T published on</span>
+  <span class="icon">
+    <i class="far fa-calendar-alt"></i>
+  </span>
+  <span><time datetime="2022-09-14">September 14, 2022</time></span>
+</span>
+
+            </div>
+            <div class="column is-4 has-text-right-desktop">
+              
+<span class="icon-text has-text-grey">
+  <span class="icon">
+    <i class="far fa-clock"></i>
+  </span>
+  <span>4 min,</span>
+  <span class="icon">
+    <i class="fas fa-pencil-alt"></i>
+  </span>
+  <span>653 words</span>
+</span>
+
+            </div>
+            <div class="column">
+              
+            </div>
+            <div class="column has-text-right-desktop">
+              
+            </div>
+          </div>
+          <div class="content mt-2">
+            <h2 id="wen-xian-qing-bao">文献情報</h2>
+<p>Haruaki Tanaka, Yusuke Yamasaki, Satoshi Yasuda, Nobuyasu Shiga, Kenichi Takizawa, Nicolas Chauvet, Ryoichi Horisaki, and Makoto Naruse, &quot;Experimental Demonstration of Delay-Bounded Wireless Network Based on Precise Time Synchronization,&quot; in <em>IEEE Access</em>, vol. 10, pp. 94285–94297, 2022, doi: <a href="https://doi.org/10.1109/ACCESS.2022.3203997">10.1109/ACCESS.2022.3203997</a>.</p>
+<h2 id="gai-yao">概要</h2>
+<p>Low latency and reliable information transfer are highly demanded in fifth generation (5G) and beyond 5G wireless communications. A novel delay-bounded wireless media access control (MAC) protocol called Carrier Sense Multiple Access with Arbitration Point (CSMA/AP) was established to strictly ensure the upper boundary of communication delay. CSMA/AP enables collision-free and delay-bounded communications with a simple arbitration mechanism exploiting the precise time synchronization achieved by Wireless Two-Way Interferometry (Wi-Wi). Experimental demonstration and proving the feasibility in wireless environments are among the most critical steps before any further discussion of CSMA/AP and extension to various applications can take in place. In this work described in this paper, we experimentally demonstrated the fundamental principles of CSMA/AP by constructing a star-topology wireless network using software-defined radio terminals combined with precise time synchronization devices. We show that CSMA/AP was successfully operated, even with dynamic changes of the spatial position of the terminal or the capability to accommodate mobility, thanks to the real-time adaption to the dynamically changing environment by Wi-Wi. We also experimentally confirmed that the proposed CSMA/AP principle cannot be executed without Wi-Wi, which validates the importance of precise time synchronization. This study paves the way toward realizing delay-bounded wireless communications for future low-latency and highly reliable critical applications.</p>
+<p>低遅延・高信頼な情報伝達は，5G・Beyond 5G時代の無線通信において非常に重要である．通信遅延の上限を厳密に保証する媒体アクセス制御手法であるCarrier Sense Multiple Access with Arbitration Point（CSMA/AP）は，無線双方向時刻比較（Wireless Two-Way Interferometry; Wi-Wi）と呼ばれる高精度時刻同期技術を利用いることで，簡便な調停機構で衝突のない通信を可能にする．CSMA/APに関する更なる議論と様々な応用への展開のためには，無線環境で実験的に検証を行い，実現可能性を示すことが重要である．本論文で我々は，ソフトウェア無線機器と高精度時刻同期装置を用いてスター型無線ネットワークを構築し，CSMA/APの基本的な原理を実験的に実証した．動的な環境へWi-Wiがリアルタイムに対応することにより，端末が動的に移動する場合においてもCSMA/APが正しく動作することを示した．また，CSMA/APはWi-Wi無しでは動作しないことを確認し，高精度時刻同期の重要性を検証した．本研究は，将来の低遅延・高信頼性を必要とするアプリケーションのための遅延保証無線通信の実現に向けた道を開くものである．</p>
+
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+
+  
+  <section class="modal" id="search-modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title">Search</p>
+      </header>
+      <section class="modal-card-body">
+        <div class="field mb-2">
+          <div class="control">
+            <input class="input" id="search" placeholder="Search this website." type="search" />
+          </div>
+        </div>
+        <div class="search-results">
+          <div class="search-results__items"></div>
+        </div>
+      </section>
+    </div>
+    <button aria-label="close" class="modal-close is-large"></button>
+  </section>
+  
+
+
+  
+
+
+
+  
+
+
+
+  <footer class="footer py-4">
+    <div class="content has-text-centered">
+      <p>
+        Built with
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <span>code</span>
+        </span>
+        and
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-heart"></i>
+          </span>
+          <span>love</span>
+        </span>
+      </p>
+      <p>
+        Powered by
+        <span class="icon-text">
+          <span class="icon">
+            <i class="fas fa-power-off"></i>
+          </span>
+          <span>zola</span>
+        </span>
+      </p>
+    </div>
+  </footer>
+
+  
+  
+  
+  
+  <script src="https://Haru-T.github.io/elasticlunr.min.js"></script>
+  <script src="https://Haru-T.github.io/search_index.ja.js"></script><script src="https://Haru-T.github.io/js/tinyseg.js"></script>
+  <script src="https://Haru-T.github.io/js/lunr.stemmer.support.js"></script>
+  <script src="https://Haru-T.github.io/js/lunr.ja.js"></script><script src="https://Haru-T.github.io/js/site.js"></script>
+
+  
+
+
+
+
+
+  
+  
+</body>
+
+</html>
